@@ -4,7 +4,6 @@
 
 #include <stdio.h>
 
-
 /**
  * main - print if number is positive, zero or nagative
  * Return: Always (success)
