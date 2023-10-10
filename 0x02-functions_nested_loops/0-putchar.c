@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - A program that print _putchar with a new line.
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	printf("_putchar\n");
+	putchar("_putchar\n");
 	return (0);
 }
