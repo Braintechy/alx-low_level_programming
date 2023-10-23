@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *_memset - Entry point
+ * _memset - Entry point
  * @s: Pointed destination
- * @b: constant byte
+ * @b: Constant byte
  * @n: bytes
- * Return - Always 0 (success)
+ * Return: Always 0 (success)
  */
 char *_memset(char *s, char b, unsigned int n)
 {
