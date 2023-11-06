@@ -31,10 +31,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (max_dog->name == NULL)
 	{
 	free(max_dog);
-	return(NULL);
+	return (NULL);
 	}
 
-	max_dog->owner = malloc(sizeof(char) *own_l);
+	max_dog->owner = malloc(sizeof(char) * own_l);
 
 	if (max_dog->owner == NULL)
 	{
@@ -71,8 +71,8 @@ int _strlen(char *s)
 
 /**
  * _strcpy - Copy a string
- * @dest: Destination value.
- * @src: Source value.
+ * @dest: The destination value.
+ * @src: The source value.
  *
  * Return: The pointer to dest.
  */
